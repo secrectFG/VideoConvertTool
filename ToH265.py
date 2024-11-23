@@ -77,6 +77,6 @@ for filename in filelist:
         print(f"未能设置文件 {filename} 的创建日期，因为无法提取原文件的创建日期。")
 
     count += 1
-    print(f"视频 {filename} 转码完成，并尝试设置了创建日期！进度：{count}/{len(filelist)}")
+    print(f"============================ 视频 {filename} 转码完成，并尝试设置了创建日期！进度：{count}/{len(filelist)} ============================")
 
 print("所有视频转码完成！")
