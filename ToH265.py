@@ -6,6 +6,12 @@ from datetime import datetime
 import logging
 import functions
 
+# 定义输入和输出文件夹路径
+input_folder = r'Z:\照片\2023'
+# input_folder = r'C:\MyDat\videos'
+output_folder = r'H:\转码'
+processed_file = 'processed_files.txt'
+
 # 确保日志目录存在
 log_directory = 'logs'
 os.makedirs(log_directory, exist_ok=True)
@@ -30,11 +36,7 @@ logging.basicConfig(level=logging.INFO, handlers=[file_handler, console_handler]
 # 获取根日志记录器
 logger = logging.getLogger()
 
-# 定义输入和输出文件夹路径
-input_folder = r'Z:\照片\2022'
-# input_folder = r'C:\MyDat\videos'
-output_folder = r'H:\转码'
-processed_file = 'processed_files.txt'
+
 
 # 确保输出文件夹存在
 os.makedirs(output_folder, exist_ok=True)
