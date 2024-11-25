@@ -3,3 +3,4 @@ processed_files.txt
 logs/video_processing.log
 __pycache__/functions.cpython-310.pyc
 processed_files.txt
+/processed_files.txt
